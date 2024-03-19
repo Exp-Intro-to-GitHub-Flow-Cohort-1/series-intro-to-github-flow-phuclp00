@@ -103,3 +103,5 @@ def api_user_by_email(email):
     user = User.query.filter_by(email=email).first()
     return jsonify({'id': user.id, 'username': user.username, 'email': user.email})
   
+  
+#   Comment 1
